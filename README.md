@@ -23,6 +23,7 @@ Custom digital font support
 
 Smooth time update using QTimer
 
+
 🛠️ Technologies Used
 
 Python 3
@@ -35,28 +36,26 @@ QPainter for custom drawing
 
 QFontDatabase for loading custom fonts
 
+
 🧠 How It Works
 
 I used QTimer to update the time every second.
-
 The system time is fetched using QTime.currentTime().
-
 I removed the default window border using Qt.FramelessWindowHint.
-
 The circular background and border are drawn inside paintEvent() using QPainter.
-
 Mouse events (mousePressEvent, mouseMoveEvent, mouseReleaseEvent) allow the window to be dragged anywhere on the screen.
-
 A custom digital font is loaded using QFontDatabase.
+
 
 📂 Project Structure
 DigitalClock/
 │
-├── digital_clock.py
+├── clockTimer.py
 ├── DS-DIGIB.TTF
 └── README.md
 
 ▶️ How to Run the Project
+
 
 Make sure Python is installed
 
@@ -99,5 +98,12 @@ Create a reusable desktop widget
 👤 Author
 
 Suminda Lakshan
+
 Computer Science Student
+
 Python | PyQt5 | GUI Development
+
+
+📜 License
+
+This project is open-source and free to use for learning and personal projects.
