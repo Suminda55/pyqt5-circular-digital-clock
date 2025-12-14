@@ -1,4 +1,5 @@
 🕒 PyQt5 Digital Clock (Transparent Circular UI)
+
 📌 Project Description
 
 This is a custom digital clock application developed using Python and PyQt5. I created this project to practice GUI development and custom window styling. The clock displays the current system time in real-time with a transparent circular interface, glowing borders, and a custom digital font.
